@@ -5,7 +5,7 @@ from PIL import Image
 import numpy as np
 
 # imgpath = r"C:\Users\Admin\Desktop\test data\catt.jpg"
-modelpath = r"C:\Users\Admin\Desktop\test data\runs\classify\train\weights\best.pt"
+modelpath = "best.pt"
 # img = cv2.imread(imgpath)
 model = YOLO(modelpath)
 
